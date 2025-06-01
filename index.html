@@ -9,7 +9,7 @@
     <script defer src="/src/assets/alpine.js"></script>
   </head>
   <body>
-    <div class="relative h-screen">
+    <div class="relative xl:h-screen">
       <!-- Background image with overlay for fade effect and blur -->
       <div class="relative isolate">
         <div
@@ -89,19 +89,17 @@
 
       <!-- Content container -->
       <div
-        class="relative flex flex-col h-screen overflow-hidden py-24 md:py-0"
+        class="relative flex flex-col xl:h-screen overflow-hidden py-8 xl:py-0"
       >
         <!-- Hero Section -->
         <div class="max-w-6xl mx-auto px-8 relative z-10 flex-grow">
-          <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 items-center">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-10 items-center">
             <!-- Left side: Content -->
-            <div class="mb-16">
+            <div class="mb-10">
               <a href="#" class="flex items-center">
-                <span class="sr-only">ZM</span>
-                <img class="h-[25.5px] w-auto" src="nlogob.png" alt="ZM" />
-                <span class="ml-1 text-4xl font-bold text-gray-800">ZM</span>
+                <img class="h-7 w-auto" src="nlogob.png" alt="ZM" />
               </a>
-              <h1 class="mt-8 text-4xl font-semibold sm:text-5xl">
+              <h1 class="mt-8 text-3xl font-semibold sm:text-5xl">
                 <span
                   class="inline-block bg-gradient-to-r from-sky-500 to-sky-400 bg-clip-text text-transparent pb-1"
                   >Transforma</span
@@ -118,7 +116,7 @@
                 >
                 🌟
               </h1>
-              <p class="mt-6 text-lg font-light text-gray-600">
+              <p class="mt-6 text-md sm:text-lg font-light text-gray-600">
                 Dedicamos-nos a criar aplicações que te motivam a sair de casa e
                 socializar em eventos únicos. Descobre e participa em festas,
                 encontros comunitários e experiências memoráveis organizadas por
@@ -164,21 +162,21 @@
             <div class="lg:pl-10 pt-0 lg:pt-12">
               <!-- Mobile: Row layout -->
               <div class="flex flex-row gap-2 lg:hidden">
-                <div class="flex-1 px-1">
+                <div class="flex-1">
                   <img
                     src="1.jpg"
                     alt="Zapping Moments App"
                     class="aspect-square rotate-1 rounded-xl bg-zinc-100 object-cover w-full h-auto"
                   />
                 </div>
-                <div class="flex-1 px-1">
+                <div class="flex-1 ">
                   <img
                     src="3.jpg"
                     alt="Zapping Moments Events"
                     class="aspect-square -rotate-1 rounded-xl bg-zinc-100 object-cover w-full h-auto"
                   />
                 </div>
-                <div class="flex-1 px-1">
+                <div class="flex-1">
                   <img
                     src="2.jpg"
                     alt="Equipa Zapping Moments"
@@ -677,11 +675,11 @@
     <!-- Footer -->
     <footer id="contacto" class="bg-gray-950 py-12">
       <div class="max-w-6xl mx-auto px-6 lg:px-8">
-        <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+        <div class="flex flex-col xl:flex-row xl:justify-between xl:items-center">
           <div class="space-y-8">
             <a href="#" class="flex items-center">
               <span class="sr-only">ZM</span>
-              <img class="h-[25.5px] w-auto" src="nlogow.png" alt="ZM" />
+              <img class="h-6 w-auto" src="nlogow.png" alt="ZM" />
               <span class="ml-1 text-4xl font-bold text-white">ZM</span>
             </a>
             <p class="text-sm leading-6 text-gray-300">
@@ -733,8 +731,7 @@
               </a> -->
             </div>
           </div>
-          <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div></div>
+          <div class="mt-8 xl:mt-0">
             <div>
               <h3 class="text-sm font-semibold leading-6 text-white">
                 Contacto
